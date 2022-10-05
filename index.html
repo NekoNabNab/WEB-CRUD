@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Awal bagian navigasi -->
+    <div id="navigasi" class="col-lg-12 row">
+        <div id="logo" class="col-lg-3">
+            <img src="assets/icon/Metic.png">
+        </div>
+        <div id="menu" class="col-lg-9 row">
+            <a href="#">Home</a>
+            <a href="#">Formulir</a>
+        </div>
+    </div>
+    <!-- Akhir bagian navigasi -->
+
+    <!-- Awal bagian header -->
+    <div id="header" class="col-lg-12 row">
+        <div id="tittle" class="col-lg-6">
+            <p>SELAMAT DATANG DI WEBSITE PENDAFTARAN METIC MOKLET!</p>
+        </div>
+        <div id="HomeIllustration" class="col-lg-5 row">
+            <img src="assets/image/HomeIllustration.png">
+        </div>
+        <div id="daftar" class="col-lg-12">
+            <a href="#">Daftar</a>
+        </div>
+    </div>
+    <!-- Akhir bagian header -->
+    
+    <!-- Awal bagian Formulir-->
+    <div id="formulir" class="col-lg-12">
+        <div id="tittle">
+            <strong>Formulir Pendaftaran Anggota</strong><br>
+            <p>Harap isi dengan data diri yang benar dan valid!</p><br>
+        </div>
+    </div>
+    
+    <div id="data" class="col-lg-12">
+        <div class="box">
+            <strong><p label>Nama : </label></strong> <br>
+            <span><input type="text" id="name" value="" placeholder="Nama Lengkap"></span>
+        </div>
+        <div class="box"> 
+            <strong><p label>No.HP : </label></strong> <br>
+            <span><input type="text" id="name" value="" placeholder="No.HP"></span>
+        </div>
+        <div class="box"> 
+            <strong><p label>Kelas : </label></strong> <br>
+            <span>
+                <select id="kelas">
+                    <option value="">--Pilih Kelas--</option>
+                    <option value="INA">XIR1</option>
+                    <option value="MLY">XIR2</option>
+                    <option value="BRN">XIR3</option>
+                </select>
+            </span>
+        </div>
+        <div class="box"> 
+            <strong><p label>Kelas Metic : </label></strong> <br>
+            <span>
+                <select id="kelasMetic">
+                    <option value="">--Pilih Kelas Metic--</option>
+                    <option value="INA">Graphic Design</option>
+                    <option value="MLY">Web Programming</option>
+                    <option value="BRN">Desktop Programming</option>
+                </select>
+            </span>
+        </div>
+        <div class="box"> 
+            <strong>Alamat</strong> <br>
+            <span><textarea id="Alamat" rows="5" cols="30" placeholder="Alamat Lengkap"></textarea></span>
+        </div>
+    </div>
+    <!-- Akhir bagian Formulir-->
+</body>
+</html>
